@@ -1,6 +1,14 @@
 import java.util.*;
 
 public class BinarySearch {
+
+    public static void main(String[] args) {
+        int numbers[] = { 2, 4, 6, 8, 10, 12, 14 };
+        int key = 10;
+
+        System.out.println("Index for key is : " + binarySearch(numbers, key));
+    }
+
     public static int binarySearch(int numbers[], int key) {
         int start = 0, end = numbers.length - 1;
 
@@ -20,12 +28,5 @@ public class BinarySearch {
 
         }
         return -1;
-    }
-
-    public static void main(String[] args) {
-        int numbers[] = { 2, 4, 6, 8, 10, 12, 14 };
-        int key = 10;
-
-        System.out.println("Index for key is : " + binarySearch(numbers, key));
     }
 }
