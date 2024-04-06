@@ -5,7 +5,7 @@ public class palindrome {
 
         temp = n;
         while (n > 0) {
-            r = n % 10; // getting remainder
+            r = n % 10; // remainder
             sum = (sum * 10) + r;
             n = n / 10;
         }
