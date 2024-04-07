@@ -8,9 +8,9 @@ public class multiply {
         int a = 3;
         int b = 5;
 
-        int prod = multiply(a, b);
-        System.out.println(prod);
-        prod = multiply(10, 20);
-        System.out.println(prod);
+        int product = multiply(a, b);
+        System.out.println(product);
+        product = multiply(10, 20);
+        System.out.println(product);
     }
 }
