@@ -13,7 +13,7 @@ public class methodWithIfElse {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your age: ");
         int age = sc.nextInt();
-        checkAge(age); // Call the checkAge method with the entered age
-        sc.close(); // Close the scanner to prevent resource leak
+        checkAge(age);
+        sc.close();
     }
 }
